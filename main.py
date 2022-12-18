@@ -1,6 +1,6 @@
-from flask import Flask, request
+# from flask import Flask, request
 import telebot
-import os
+# import os
 
 # app = Flask(__name__)
 # TOKEN = os.environ.get('TOKEN')
