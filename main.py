@@ -17,7 +17,7 @@ def message_start(message):
 def message_courses(message):
     keyboard = telebot.types.InlineKeyboardMarkup(row_width=1)
 
-    with open('courses.txt') as file:
+    with open('courses') as file:
         courses = [item.split(',') for item in file]
 
         for title, link in courses:
