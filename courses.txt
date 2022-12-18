@@ -1,0 +1,2 @@
+Front-End, https://prog.kiev.ua/fe.html
+Python, https://prog.kiev.ua/python/
