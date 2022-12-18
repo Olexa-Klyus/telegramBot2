@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__)
 TOKEN = os.environ.get('TOKEN')
-# TOKEN = '5683712081:AAHOCCORZKYWHcnZ72U2nhnjK0h42HToBYY'
 bot = telebot.TeleBot(TOKEN)
 
 
