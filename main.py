@@ -9,7 +9,7 @@ bot = telebot.TeleBot("6109114656:AAGOYhkO4H_22FJZabEJ7xh_KDYGUDLbbVQ")
 
 @bot.message_handler(commands=["start"])
 def message_start(message):
-    bot.send_message("703984335", f"Потрібне підтвердження бронювання {message.json['text'][6:]} для користувача {message.json['from']} ")
+    bot.send_message("6112482112", f"Потрібне підтвердження бронювання {message.json['text'][6:]} для користувача {message.json['from']} ")
 
 
 @bot.message_handler(commands=["courses"])
